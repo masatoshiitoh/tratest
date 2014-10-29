@@ -20,6 +20,7 @@ start(_StartType, _StartArgs) ->
 stop(_State) ->
     ok.
 
+%% Eunit
 -ifdef(TEST).
 
 simple_test()->
